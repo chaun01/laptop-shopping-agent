@@ -48,6 +48,12 @@ SYSTEM_PROMPTS["v2"] = SYSTEM_PROMPTS["v1"].replace(
     "  budget, say so plainly and offer the closest in-budget alternatives (explain the trade-off).")
 
 
+# v3: long-term memory moved off the critical path (background extraction), saves one LLM round.
+SYSTEM_PROMPTS["v3"] = SYSTEM_PROMPTS["v2"].replace(
+    "5. When the customer states a lasting preference (budget, use case, favourite brand, OS), call\n"
+    "   `remember_preference` once.\n", "").replace("6. Cart:", "5. Cart:").replace("7. If a tool", "6. If a tool")
+
+
 FORCE_ANSWER = ("You have used the maximum number of tool calls for this turn. Using only the information "
                 "already gathered, give the customer your best answer now, and say what you could not check.")
 

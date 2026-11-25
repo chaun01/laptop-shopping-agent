@@ -35,7 +35,7 @@ from laptop_agent.db.database import connect, get_preferences
 from laptop_agent.guardrails.checks import (REFUSALS, check_input, check_output, classify_llm,
                                             tool_texts_from, validate_tool_call)
 from laptop_agent.llm import get_chat_model
-from laptop_agent.tools import ALL_TOOLS
+from laptop_agent.tools import ALL_TOOLS, tools_for
 from laptop_agent.tools.cart import call_cart
 
 MAX_TOOL_ROUNDS = 6        # tool-calling rounds allowed per user turn
@@ -98,7 +98,10 @@ async def agent(state: AgentState, config) -> dict:
         msgs.append(SystemMessage(FORCE_ANSWER))
         model_call = get_chat_model().with_config(**llm_cfg).ainvoke(msgs, config)          # no tools -> must answer
     else:
-        model_call = get_chat_model(ALL_TOOLS).with_config(**llm_cfg).ainvoke(msgs, config)
+        # Cascade (optional): the first round of a turn is usually just "which tools to call", so a faster
+        # model can do it; later rounds (writing the answer from tool results) use the main model.
+        router = s.router_model if (s.router_model and rounds == 0 and not state.get("correction")) else None
+        model_call = get_chat_model(tools_for(s.prompt_version), model=router).with_config(**llm_cfg).ainvoke(msgs, config)
 
     guard = dict(state.get("guard", {}))
     if guard.pop("llm_pending", False):

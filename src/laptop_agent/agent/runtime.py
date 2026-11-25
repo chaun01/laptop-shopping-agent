@@ -14,6 +14,7 @@ from langgraph.types import Command
 from laptop_agent.agent.graph import build_graph
 from laptop_agent.config import get_settings
 from laptop_agent.observability import flush, run_config
+from laptop_agent.tools.memory import schedule_preference_update
 
 
 @dataclass
@@ -37,7 +38,14 @@ class AgentRuntime:
         before = await self._n_messages(cfg)
         t0 = time.perf_counter()
         await self.graph.ainvoke({"messages": [HumanMessage(message)]}, cfg)
-        return await self._result(cfg, before, t0)
+        result = await self._result(cfg, before, t0)
+        self._remember(user_id, message, result.guard)
+        return result
+
+    def _remember(self, user_id: str, message: str, guard: dict) -> None:
+        if get_settings().prompt_version not in ("v1", "v2") and guard.get("input") == "ok":
+            from laptop_agent.guardrails.checks import redact_pii
+            schedule_preference_update(user_id, redact_pii(message)[0])   # PII never reaches memory
 
     async def resume(self, user_id: str, session_id: str, decision: str) -> TurnResult:
         cfg = run_config(user_id, session_id, ["resume"])
@@ -53,6 +61,8 @@ class AgentRuntime:
                                                     stream_mode="messages"):
             if "agent_answer" in meta.get("tags", []) and chunk.text and not getattr(chunk, "tool_call_chunks", None):
                 yield chunk.text
+        snap = await self.graph.aget_state(cfg)
+        self._remember(user_id, message, snap.values.get("guard", {}))
         flush()
 
     async def _n_messages(self, cfg) -> int:

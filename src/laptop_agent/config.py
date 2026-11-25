@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     llm_model: str = "gpt-6.2-astra"          # main agent model (newest generation)
     llm_fallback_model: str = "gpt-5.4"       # 2nd best in eval; different generation -> survives a model-specific outage
+    router_model: str = ""                    # cascade: faster model for the first (tool-routing) round; "" = off
     llm_small_model: str = "gpt-5.4-nano"     # cheap model: query rewrite, guard classifier, judge
     embedding_model: str = "text-embedding-3-small"
     llm_timeout_s: int = 60
@@ -39,7 +40,7 @@ class Settings(BaseSettings):
     langfuse_public_key: str = ""
     langfuse_secret_key: str = ""
     langfuse_host: str = "https://cloud.langfuse.com"
-    prompt_version: str = "v2"
+    prompt_version: str = "v3"
 
     @field_validator("openai_api_key", "langfuse_public_key", "langfuse_secret_key", "langfuse_host")
     @classmethod

@@ -16,10 +16,12 @@ def _chat(model: str) -> ChatOpenAI:
                       timeout=s.llm_timeout_s, max_retries=2)
 
 
-def get_chat_model(tools: list | None = None) -> BaseChatModel:
-    """Main model (optionally tool-bound) that falls back to the fallback model on errors."""
+def get_chat_model(tools: list | None = None, model: str | None = None) -> BaseChatModel:
+    """Main model (optionally tool-bound) that falls back to another model on errors.
+    `model` overrides the primary (used by the router cascade); its fallback is then the main model."""
     s = get_settings()
-    main, backup = _chat(s.llm_model), _chat(s.llm_fallback_model)
+    main = _chat(model or s.llm_model)
+    backup = _chat(s.llm_model if model else s.llm_fallback_model)
     if tools:
         main, backup = main.bind_tools(tools), backup.bind_tools(tools)
     return main.with_fallbacks([backup])

@@ -62,3 +62,25 @@ def test_convert_price_live_and_fallback(monkeypatch):
     out = json.loads(fx.convert_price.invoke({"currency": "EUR", "amounts_usd": [100]}))
     assert out["rate_status"] == "static" and "approximate" in out["note"]
     assert "error" in json.loads(fx.convert_price.invoke({"currency": "XYZ", "amounts_usd": [1]}))
+
+
+def test_preference_prefilter_and_extraction(temp_db, monkeypatch):
+    import sqlite3
+
+    from laptop_agent.tools import memory
+
+    assert memory.looks_like_preference("I only use macOS, budget $1200")
+    assert not memory.looks_like_preference("Compare LP095 and LP194")
+
+    class FakeLLM:
+        def with_structured_output(self, schema):
+            return self
+
+        def invoke(self, prompt):
+            return memory.Preferences(budget_usd=1200, preferred_os="macOS")
+
+    monkeypatch.setattr("laptop_agent.llm.get_small_model", lambda: FakeLLM())
+    saved = memory.extract_and_save("u002", "I only use macOS, budget $1200")
+    assert saved == {"budget_usd": 1200, "preferred_os": "macOS"}
+    prefs = sqlite3.connect(temp_db).execute("SELECT preferences FROM users WHERE id='u002'").fetchone()[0]
+    assert '"preferred_os": "macOS"' in prefs
