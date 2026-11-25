@@ -29,7 +29,7 @@ from common import PRODUCT_ID_RE, REPORTS, ROOT, all_products, load_jsonl, mean,
 from pydantic import BaseModel, Field
 
 THRESHOLDS = ROOT / "evals" / "thresholds.json"
-JUDGE_MODEL = os.getenv("JUDGE_MODEL", "gpt-5.4-mini")
+JUDGE_MODEL = os.getenv("JUDGE_MODEL", "gpt-5.4")   # stronger than the old gpt-5.4-mini judge, which made factual errors
 
 
 class JudgeScore(BaseModel):
@@ -137,7 +137,7 @@ async def run_case(rt, case: dict, products: dict, db: Path, use_judge: bool) ->
         checks["grounded"] = not any(i.startswith("ungrounded") for i in guard.get("output_issues", []))
 
     j = await judge(case, answer, tool_outputs) if use_judge and not case.get("expect_blocked") and not error else None
-    return {"id": case["id"], "group": case["group"], "pass": all(checks.values()), "checks": checks,
+    return {"id": case["id"], "group": case["group"], "session_id": sid, "pass": all(checks.values()), "checks": checks,
             "block_label": guard.get("input"), "expected_block_label": case.get("expect_blocked"),
             "mentioned_products": mentioned, "constraint_precision": constraint_precision,
             "judge": j, "turns": turns, "error": error,

@@ -29,7 +29,7 @@ from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode
 from langgraph.types import Command, interrupt
 
-from laptop_agent.agent.prompts import FORCE_ANSWER, PRICE_CORRECTION, system_prompt
+from laptop_agent.agent.prompts import FORCE_ANSWER, PRICE_CORRECTION, resolve_system_prompt
 from laptop_agent.config import get_settings
 from laptop_agent.db.database import connect, get_preferences
 from laptop_agent.guardrails.checks import (REFUSALS, check_input, check_output, classify_llm,
@@ -87,15 +87,18 @@ async def agent(state: AgentState, config) -> dict:
     s = get_settings()
     history = trim_messages(state["messages"], max_tokens=HISTORY_TOKENS, strategy="last",
                             token_counter="approximate", start_on="human", include_system=False)
-    msgs = [SystemMessage(system_prompt(s.prompt_version, state.get("preferences", {})))] + history
+    prompt_text, managed_prompt = await asyncio.to_thread(
+        resolve_system_prompt, s.prompt_version, state.get("preferences", {}))
+    msgs = [SystemMessage(prompt_text)] + history
+    llm_cfg = {"tags": ["agent_answer"], "metadata": {"langfuse_prompt": managed_prompt} if managed_prompt else {}}
     rounds = state.get("tool_rounds", 0)
     if state.get("correction"):
         msgs.append(SystemMessage(state["correction"]))
     if rounds >= MAX_TOOL_ROUNDS:
         msgs.append(SystemMessage(FORCE_ANSWER))
-        model_call = get_chat_model().with_config(tags=["agent_answer"]).ainvoke(msgs, config)          # no tools -> must answer
+        model_call = get_chat_model().with_config(**llm_cfg).ainvoke(msgs, config)          # no tools -> must answer
     else:
-        model_call = get_chat_model(ALL_TOOLS).with_config(tags=["agent_answer"]).ainvoke(msgs, config)
+        model_call = get_chat_model(ALL_TOOLS).with_config(**llm_cfg).ainvoke(msgs, config)
 
     guard = dict(state.get("guard", {}))
     if guard.pop("llm_pending", False):
@@ -159,18 +162,21 @@ async def output_guard(state: AgentState) -> Command[Literal["agent", "__end__"]
     guard = {**state.get("guard", {}), "output_issues": check.issues}
     if check.ok:
         return Command(goto=END, update={"guard": guard})
-    price_issue = next((i for i in check.issues if i.startswith("ungrounded_prices")), None)
-    if price_issue and not state.get("correction_used"):
+    grounding = [i for i in check.issues if i.startswith("ungrounded_")]
+    price_issue = next((i for i in grounding if i.startswith("ungrounded_prices")), None)
+    if grounding and not state.get("correction_used"):
         # drop the bad answer and let the agent retry once with an explicit correction
         return Command(goto="agent", update={
             "messages": [RemoveMessage(id=last.id)], "correction_used": True, "guard": guard,
-            "correction": PRICE_CORRECTION.format(amounts=price_issue.split(":", 1)[1])})
+            "correction": PRICE_CORRECTION.format(amounts="; ".join(i.split(":", 1)[1] for i in grounding))})
     text = check.clean_text
     if "invented_coupon_code" in check.issues:
         text = ("I can't offer coupon codes or custom discounts. Current promotions are described in our "
                 "payment policy (e.g. the 5% student discount).")
     elif price_issue:
         text += "\n\n_Note: please confirm the final price in your cart before checkout._"
+    elif grounding:
+        text += "\n\n_Note: please double-check the exact specs on the product details before buying._"
     return Command(goto=END, update={"guard": guard,
                                      "messages": [AIMessage(text, id=last.id, name="guardrail")]})
 

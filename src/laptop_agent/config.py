@@ -2,6 +2,7 @@
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -39,6 +40,12 @@ class Settings(BaseSettings):
     langfuse_secret_key: str = ""
     langfuse_host: str = "https://cloud.langfuse.com"
     prompt_version: str = "v2"
+
+    @field_validator("openai_api_key", "langfuse_public_key", "langfuse_secret_key", "langfuse_host")
+    @classmethod
+    def _strip_quotes(cls, v: str) -> str:
+        # secrets pasted into CI/env with surrounding quotes are a common, confusing 401 cause
+        return v.strip().strip('"').strip("'")
 
     @property
     def tracing_enabled(self) -> bool:

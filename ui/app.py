@@ -1,4 +1,5 @@
 """Streamlit demo UI. Talks to the FastAPI backend (API_URL)."""
+import json
 import os
 import uuid
 
@@ -70,13 +71,35 @@ if st.session_state.pending:
                                                   "decision": decision}))
                 st.rerun()
 
+def stream_chat(payload: dict, final: dict):
+    """Yield answer tokens from the SSE endpoint; store the final event in `final`."""
+    with httpx.stream("POST", f"{API_URL}/chat/stream", json=payload, headers=HEADERS, timeout=180) as r:
+        r.raise_for_status()
+        for line in r.iter_lines():
+            if not line.startswith("data: "):
+                continue
+            event = json.loads(line[6:])
+            if "token" in event:
+                yield event["token"]
+            else:
+                final.update(event)
+
+
 if prompt := st.chat_input("Ask about laptops, your cart, or store policies...",
                            disabled=bool(st.session_state.pending)):
     st.session_state.history.append(("user", prompt, None))
-    with st.spinner("Thinking..."):
-        try:
-            handle(call("/chat", {"user_id": user_id, "session_id": st.session_state.session_id,
-                                  "message": prompt}))
-        except Exception as e:
-            st.session_state.history.append(("assistant", f"⚠️ Error: {e}", None))
+    with st.chat_message("user"):
+        st.markdown(prompt)
+    payload = {"user_id": user_id, "session_id": st.session_state.session_id, "message": prompt}
+    try:
+        with st.chat_message("assistant"):
+            final: dict = {}
+            with st.spinner("Checking the catalog..."):
+                gen = stream_chat(payload, final)
+                first = next(gen, None)          # wait (with spinner) until the first token arrives
+            if first is not None:
+                st.write_stream(iter([first, *gen]))   # then tokens appear as they are generated
+        handle(final)                            # guarded final answer replaces the streamed draft
+    except Exception as e:
+        st.session_state.history.append(("assistant", f"⚠️ Error: {e}", None))
     st.rerun()

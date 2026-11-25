@@ -61,3 +61,14 @@ def test_route_place_order_requires_approval():
     msg = AIMessage("", tool_calls=[{"name": "search_products", "args": {"query": "x"}, "id": "2"}])
     assert route_after_agent({"messages": [msg]}) == "tools"
     assert route_after_agent({"messages": [AIMessage("done")]}) == "output_guard"
+
+
+def test_output_spec_grounding():
+    tools = ['{"id": "LP095", "ram_gb": 16, "storage_gb": 512, "weight_kg": 1.31, "battery_hours": 12.9, '
+             '"refresh_hz": 120, "screen_inch": 14.0, "price_usd": 799}']
+    ok = check_output("LP095: 16GB RAM, 512 GB SSD, 1.31 kg, about 13 hours of battery, 120Hz, 14-inch.", tools)
+    assert ok.ok, ok.issues
+    bad = check_output("LP095 has 32GB RAM and a 1 TB SSD.", tools)
+    assert not bad.ok and any(i.startswith("ungrounded_specs") for i in bad.issues)
+    tools_tb = ['{"storage_gb": 2048, "price_usd": 2499}']
+    assert check_output("It comes with a 2 TB SSD.", tools_tb).ok

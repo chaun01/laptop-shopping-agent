@@ -51,6 +51,33 @@ SYSTEM_PROMPTS["v2"] = SYSTEM_PROMPTS["v1"].replace(
 FORCE_ANSWER = ("You have used the maximum number of tool calls for this turn. Using only the information "
                 "already gathered, give the customer your best answer now, and say what you could not check.")
 
-PRICE_CORRECTION = ("Your previous answer mentioned amounts that do not appear in any tool result: {amounts}. "
-                    "Rewrite the answer using only prices/amounts returned by tools (call get_product_details "
-                    "if you need exact prices). Do not apologise or mention this correction.")
+PRICE_CORRECTION = ("Your previous answer mentioned prices or specs that do not appear in any tool result: {amounts}. "
+                    "Rewrite the answer using only values returned by tools (call get_product_details "
+                    "if you need exact prices/specs). Do not apologise or mention this correction.")
+
+
+# ---------------------------------------------------------------- Langfuse Prompt Management
+PROMPT_NAME = "laptop-agent-system"
+
+
+def to_langfuse_template(version: str) -> str:
+    """Langfuse uses {{var}} placeholders; code uses {var}."""
+    return SYSTEM_PROMPTS[version].replace("{memory}", "{{memory}}")
+
+
+def resolve_system_prompt(version: str, preferences: dict):
+    """Fetch the prompt version from Langfuse (label = version, cached by the SDK) so every LLM call
+    is linked to the exact managed prompt in traces. Falls back to the in-code copy on any failure.
+    Returns (text, langfuse_prompt_client | None)."""
+    from laptop_agent.config import get_settings
+    local = system_prompt(version, preferences)
+    if not get_settings().tracing_enabled:
+        return local, None
+    try:
+        from langfuse import get_client
+        p = get_client().get_prompt(PROMPT_NAME, label=version, cache_ttl_seconds=300,
+                                    fallback=to_langfuse_template(version), fetch_timeout_seconds=3)
+        memory = local[len(SYSTEM_PROMPTS[version].split("{memory}")[0]):] if preferences else ""
+        return p.compile(memory=memory), (None if p.is_fallback else p)
+    except Exception:
+        return local, None

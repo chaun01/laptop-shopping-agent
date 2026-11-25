@@ -41,3 +41,24 @@ async def test_mcp_cart_flow(temp_db):
     assert "error" in await call_cart("get_order_status", {"user_id": "u002", "order_id": "ORD-1001"})
     con = sqlite3.connect(temp_db)
     assert con.execute("SELECT stock FROM products WHERE id = ?", (in_stock[0],)).fetchone()[0] == in_stock[1] - 1
+
+
+def test_convert_price_live_and_fallback(monkeypatch):
+    import httpx
+    from laptop_agent.tools import currency as fx
+
+    class Resp:
+        def raise_for_status(self): pass
+        def json(self): return {"result": "success", "rates": {"VND": 25000, "EUR": 0.9}, "time_last_update_utc": "t"}
+
+    fx._cache.update(rates=None, fetched_at=0.0)
+    monkeypatch.setattr(httpx, "get", lambda *a, **k: Resp())
+    out = json.loads(fx.convert_price.invoke({"currency": "vnd", "product_ids": ["LP076"]}))
+    assert out["rate_status"] == "live" and out["items"][0]["price_vnd"] == 439 * 25000
+
+    def boom(*a, **k): raise httpx.ConnectError("down")
+    fx._cache.update(rates=None, fetched_at=0.0)
+    monkeypatch.setattr(httpx, "get", boom)
+    out = json.loads(fx.convert_price.invoke({"currency": "EUR", "amounts_usd": [100]}))
+    assert out["rate_status"] == "static" and "approximate" in out["note"]
+    assert "error" in json.loads(fx.convert_price.invoke({"currency": "XYZ", "amounts_usd": [1]}))

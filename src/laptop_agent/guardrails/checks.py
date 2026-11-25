@@ -154,6 +154,28 @@ def grounded_numbers(tool_texts: list[str]) -> set[float]:
     return nums | derived
 
 
+# spec claims: (regex, tolerance, multiplier to the unit used in tool data)
+SPEC_PATTERNS = [
+    (re.compile(r"(\d+(?:\.\d+)?)\s?GB\b", re.I), 0.0, 1),          # RAM / storage in GB
+    (re.compile(r"(\d+(?:\.\d+)?)\s?TB\b", re.I), 0.0, 1024),       # storage stored as GB
+    (re.compile(r"(\d+(?:\.\d+)?)\s?kg\b", re.I), 0.05, 1),         # weight
+    (re.compile(r"(\d+(?:\.\d+)?)\s?(?:hours?|hrs?|h)\b(?! ?(?:a|per) day)", re.I), 0.5, 1),  # battery
+    (re.compile(r"(\d+)\s?Hz\b", re.I), 0.0, 1),                    # refresh rate
+    (re.compile(r"(\d+(?:\.\d+)?)\s?(?:-?inch|\"|”|in\b)", re.I), 0.1, 1),  # screen size
+]
+
+
+def ungrounded_specs(answer: str, allowed: set[float]) -> list[str]:
+    """Spec values in the answer that match no number from tool outputs (within unit tolerance)."""
+    bad = []
+    for pat, tol, mult in SPEC_PATTERNS:
+        for m in pat.finditer(answer):
+            v = float(m.group(1))
+            if not any(abs(v - x) <= tol or abs(v * mult - x) <= tol for x in allowed):
+                bad.append(m.group(0).strip())
+    return bad
+
+
 class OutputCheck(BaseModel):
     ok: bool
     issues: list[str] = []
@@ -166,6 +188,10 @@ def check_output(answer: str, tool_texts: list[str]) -> OutputCheck:
     ungrounded = [a for a in _amounts(answer) if a >= 10 and not any(abs(a - x) <= 1 for x in allowed)]
     if ungrounded:
         issues.append(f"ungrounded_prices:{ungrounded}")
+    raw = {round(float(n), 2) for t in tool_texts for n in NUMBER_RE.findall(t)}   # specs: no derived sums
+    bad_specs = ungrounded_specs(answer, raw)
+    if bad_specs:
+        issues.append(f"ungrounded_specs:{bad_specs}")
     if COUPON_RE.search(answer):
         issues.append("invented_coupon_code")
     clean, pii = redact_pii(answer)

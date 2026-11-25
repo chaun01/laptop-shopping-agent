@@ -9,6 +9,8 @@ Run: uvicorn laptop_agent.api.main:app --port 8000
 """
 import json
 import os
+import time
+from collections import defaultdict, deque
 from contextlib import asynccontextmanager
 from dataclasses import asdict
 
@@ -20,6 +22,19 @@ from laptop_agent.agent.runtime import open_runtime
 from laptop_agent.config import get_settings
 
 API_KEY = os.getenv("API_KEY")   # optional shared secret; in production user_id would come from real auth
+RATE_LIMIT_PER_MIN = int(os.getenv("RATE_LIMIT_PER_MIN", "20"))
+_hits: dict[str, deque] = defaultdict(deque)
+
+
+def rate_limit(user_id: str) -> None:
+    """Sliding-window limit per user (in-process; use Redis when running several API replicas).
+    Caps LLM spend per customer and blunts scripted abuse."""
+    now, window = time.monotonic(), _hits[user_id]
+    while window and now - window[0] > 60:
+        window.popleft()
+    if len(window) >= RATE_LIMIT_PER_MIN:
+        raise HTTPException(429, f"rate limit: max {RATE_LIMIT_PER_MIN} messages per minute")
+    window.append(now)
 
 
 @asynccontextmanager
@@ -59,6 +74,7 @@ async def health():
 
 @app.post("/chat", dependencies=[Depends(check_key)])
 async def chat(body: ChatIn):
+    rate_limit(body.user_id)
     try:
         r = await app.state.rt.chat(body.user_id, body.session_id, body.message, tags=["api"])
     except Exception as e:   # never leak stack traces to clients; details are in the trace
@@ -74,16 +90,25 @@ async def confirm(body: ConfirmIn):
 
 @app.post("/chat/stream", dependencies=[Depends(check_key)])
 async def chat_stream(body: ChatIn):
+    rate_limit(body.user_id)
     rt = app.state.rt
 
     async def events():
+        from laptop_agent.observability import run_config
+        cfg = run_config(body.user_id, body.session_id)
+        before = await rt._n_messages(cfg)
+        t0 = time.perf_counter()
         async for token in rt.stream(body.user_id, body.session_id, body.message):
             yield f"data: {json.dumps({'token': token})}\n\n"
-        # after streaming, tell the client whether the graph paused for order confirmation
-        from laptop_agent.observability import run_config
-        snap = await rt.graph.aget_state(run_config(body.user_id, body.session_id))
-        pending = snap.interrupts[0].value if snap.interrupts else None
-        last = snap.values["messages"][-1].text if snap.values.get("messages") else ""
-        yield f"data: {json.dumps({'done': True, 'pending_confirmation': pending, 'answer': last})}\n\n"
+        # Final event: the guarded answer (may differ from the streamed draft if the output guard
+        # corrected it), whether the graph paused for order confirmation, and turn metadata.
+        snap = await rt.graph.aget_state(cfg)
+        msgs = snap.values.get("messages", [])
+        tools = [{"name": tc["name"]} for m in msgs[before:] for tc in (getattr(m, "tool_calls", None) or [])]
+        yield "data: " + json.dumps({
+            "done": True, "answer": msgs[-1].text if msgs else "",
+            "pending_confirmation": snap.interrupts[0].value if snap.interrupts else None,
+            "tool_calls": tools, "guard": snap.values.get("guard", {}),
+            "latency_s": round(time.perf_counter() - t0, 2)}) + "\n\n"
 
     return StreamingResponse(events(), media_type="text/event-stream")

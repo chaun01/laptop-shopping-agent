@@ -10,7 +10,7 @@ from common import REPORTS
 
 METRICS = ["model", "pass_rate", "tool_accuracy", "constraint_precision", "safety_block_rate",
            "false_positive_rate", "grounded_rate", "judge_helpfulness", "judge_faithfulness",
-           "latency_p50_s", "latency_p95_s", "avg_agent_tokens_per_case"]
+           "latency_p50_s", "latency_p95_s", "avg_agent_tokens_per_case", "avg_cost_usd_per_case"]
 
 
 def main(labels: list[str]) -> None:
