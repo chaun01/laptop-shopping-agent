@@ -114,7 +114,10 @@ def warmup() -> None:
     _client()
     for t in ("product", "review", "policy"):
         _bm25(t)
-    embed_query_cached("laptop")
+    try:
+        embed_query_cached("laptop")
+    except Exception as e:   # provider outage must not stop the API from starting (health, cart, policies still work)
+        print(f"[warmup] embedding warm-up skipped: {type(e).__name__}")
 
 
 def dense_search(query: str, doc_type: DocType, k: int = 10, filters: ProductFilters | None = None,

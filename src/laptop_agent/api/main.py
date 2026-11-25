@@ -98,8 +98,17 @@ async def chat_stream(body: ChatIn):
         cfg = run_config(body.user_id, body.session_id)
         before = await rt._n_messages(cfg)
         t0 = time.perf_counter()
-        async for token in rt.stream(body.user_id, body.session_id, body.message):
-            yield f"data: {json.dumps({'token': token})}\n\n"
+        try:
+            async for token in rt.stream(body.user_id, body.session_id, body.message):
+                yield f"data: {json.dumps({'token': token})}\n\n"
+        except Exception as e:   # LLM outage / quota: end the stream cleanly with a user-safe message
+            msg = ("The assistant is temporarily unavailable (model provider error). Please try again in a moment."
+                   if "openai" in type(e).__module__ or "APIError" in type(e).__name__
+                   else "Something went wrong while answering. Please try again.")
+            yield "data: " + json.dumps({"done": True, "error": type(e).__name__, "answer": msg,
+                                         "pending_confirmation": None, "tool_calls": [], "guard": {},
+                                         "latency_s": round(time.perf_counter() - t0, 2)}) + "\n\n"
+            return
         # Final event: the guarded answer (may differ from the streamed draft if the output guard
         # corrected it), whether the graph paused for order confirmation, and turn metadata.
         snap = await rt.graph.aget_state(cfg)
