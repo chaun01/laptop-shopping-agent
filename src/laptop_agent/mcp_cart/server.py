@@ -6,11 +6,13 @@ reused by any MCP client (Claude Desktop, other agents, ...).
   stdio (default, spawned by the agent):  python -m laptop_agent.mcp_cart.server
   HTTP  (docker / shared service):        python -m laptop_agent.mcp_cart.server --http --port 8765
 """
+import os
 import sys
 import uuid
 from typing import Literal
 
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 
 from laptop_agent.db.database import connect, rows
 
@@ -115,6 +117,10 @@ if __name__ == "__main__":
     if "--http" in sys.argv:
         port = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8765
         mcp.settings.host, mcp.settings.port = "0.0.0.0", port
+        # keep DNS-rebinding protection on, but allow the docker service name (MCP_ALLOWED_HOSTS)
+        hosts = os.getenv("MCP_ALLOWED_HOSTS", "localhost:*,127.0.0.1:*").split(",")
+        mcp.settings.transport_security = TransportSecuritySettings(
+            enable_dns_rebinding_protection=True, allowed_hosts=hosts)
         mcp.run(transport="streamable-http")
     else:
         mcp.run()

@@ -4,6 +4,8 @@ services:
     build: .
     command: ["mcp"]
     env_file: .env
+    environment:
+      MCP_ALLOWED_HOSTS: "mcp-cart:*,localhost:*,127.0.0.1:*"
     volumes: [appdata:/app/data]
     healthcheck:
       test: ["CMD", "python", "-c", "import socket; socket.create_connection(('localhost', 8765), 2)"]
