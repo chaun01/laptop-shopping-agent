@@ -33,6 +33,8 @@ services:
     command: ["ui"]
     environment:
       API_URL: http://api:8000
+      STREAMLIT_CLIENT_TOOLBAR_MODE: minimal        # hide the Deploy button / dev menu
+      STREAMLIT_THEME_PRIMARY_COLOR: "#0E9F9A"      # teal, matches the slides
     ports: ["8501:8501"]
     depends_on:
       api: { condition: service_healthy }

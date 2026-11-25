@@ -8,6 +8,7 @@
 Run: uvicorn laptop_agent.api.main:app --port 8000
 """
 import json
+import re
 import os
 import time
 from collections import defaultdict, deque
@@ -70,6 +71,26 @@ async def health():
     return {"status": "ok", "model": s.llm_model, "fallback": s.llm_fallback_model,
             "prompt_version": s.prompt_version, "tracing": s.tracing_enabled,
             "rerank": s.rag_rerank, "parallel_input_guard": s.parallel_input_guard}
+
+
+@app.get("/customers/{user_id}/profile", dependencies=[Depends(check_key)])
+async def customer_profile(user_id: str):
+    """Read-only customer summary for the UI: long-term memory, cart and order count."""
+    if not re.fullmatch(r"[A-Za-z0-9_-]{1,40}", user_id):
+        raise HTTPException(422, "invalid user id")
+    from laptop_agent.db.database import connect, get_preferences
+    with connect() as conn:
+        u = conn.execute("SELECT name FROM users WHERE id = ?", (user_id,)).fetchone()
+        if u is None:
+            raise HTTPException(404, "unknown customer")
+        cart = conn.execute("SELECT COALESCE(SUM(c.quantity), 0) n, COALESCE(SUM(c.quantity * p.price_usd), 0) s "
+                            "FROM cart_items c JOIN products p ON p.id = c.product_id WHERE c.user_id = ?",
+                            (user_id,)).fetchone()
+        orders = conn.execute("SELECT id, status, total_usd FROM orders WHERE user_id = ? ORDER BY created_at DESC",
+                              (user_id,)).fetchall()
+        return {"user_id": user_id, "name": u["name"], "preferences": get_preferences(conn, user_id),
+                "cart_items": cart["n"], "cart_subtotal_usd": round(cart["s"], 2),
+                "orders": [dict(o) for o in orders[:3]], "order_count": len(orders)}
 
 
 @app.post("/chat", dependencies=[Depends(check_key)])

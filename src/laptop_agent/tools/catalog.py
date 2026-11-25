@@ -36,7 +36,11 @@ def search_products(
 ) -> str:
     """Find laptops matching the customer's needs. `query` = the need in natural language
     (e.g. 'light laptop with long battery for university'). Add explicit filters only for
-    constraints the customer stated. Returns up to k candidates with key specs."""
+    constraints the customer stated. Set `category` only when the customer names a laptop type
+    (gaming, ultrabook, business, 2-in-1, creator); never infer it from who the customer is -
+    a student or office worker may be best served by an ultrabook or 2-in-1. Express needs like
+    'light' or 'long battery' via max_weight_kg / min_battery_hours instead.
+    Returns up to k candidates with key specs."""
     filters = ProductFilters(max_price=max_price, category=category, brand=brand, min_ram_gb=min_ram_gb,
                              max_weight_kg=max_weight_kg, min_battery_hours=min_battery_hours,
                              dedicated_gpu=dedicated_gpu, in_stock_only=in_stock_only)

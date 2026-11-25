@@ -106,7 +106,7 @@ python -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python scripts/generate_data.py && .venv/bin/python scripts/load_db.py
 .venv/bin/python -m laptop_agent.rag.index
 .venv/bin/uvicorn laptop_agent.api.main:app --app-dir src --port 8000
-API_URL=http://localhost:8000 .venv/bin/streamlit run ui/app.py
+API_URL=http://localhost:8000 .venv/bin/streamlit run ui/app.py      # sidebar: customer switch, live long-term-memory card, one-click demo prompts
 .venv/bin/python scripts/chat_cli.py          # terminal chat
 ```
 

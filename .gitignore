@@ -12,3 +12,6 @@ data/cache.db
 
 # presentation material (kept local, not published)
 docs/
+
+# Playwright MCP session artifacts
+.playwright-mcp/
