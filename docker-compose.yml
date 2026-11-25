@@ -1,0 +1,39 @@
+# docker compose up --build   ->  UI http://localhost:8501 · API http://localhost:8000/docs
+services:
+  mcp-cart:
+    build: .
+    command: ["mcp"]
+    env_file: .env
+    volumes: [appdata:/app/data]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; socket.create_connection(('localhost', 8765), 2)"]
+      interval: 5s
+      retries: 20
+
+  api:
+    build: .
+    command: ["api"]
+    env_file: .env
+    environment:
+      MCP_CART_URL: http://mcp-cart:8765/mcp   # agent talks to the cart over MCP streamable HTTP
+    volumes: [appdata:/app/data]
+    ports: ["8000:8000"]
+    depends_on:
+      mcp-cart: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      retries: 30
+    restart: unless-stopped
+
+  ui:
+    build: .
+    command: ["ui"]
+    environment:
+      API_URL: http://api:8000
+    ports: ["8501:8501"]
+    depends_on:
+      api: { condition: service_healthy }
+
+volumes:
+  appdata:

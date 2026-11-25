@@ -1,0 +1,30 @@
+{"id": "q01", "query": "cheap laptop for college under $500", "constraints": {"max_price": 500}}
+{"id": "q02", "query": "gaming laptop under $1300 with dedicated graphics", "constraints": {"category": "gaming", "max_price": 1300, "dedicated_gpu": true}}
+{"id": "q03", "query": "super lightweight laptop under 1.2 kg", "constraints": {"max_weight_kg": 1.2}}
+{"id": "q04", "query": "laptop with at least 15 hours of battery life", "constraints": {"min_battery_hours": 15}}
+{"id": "q05", "query": "MacBook for programming", "constraints": {"brand": "Apple"}}
+{"id": "q06", "query": "business laptop with 32GB RAM", "constraints": {"category": "business", "min_ram_gb": 32}}
+{"id": "q07", "query": "2-in-1 convertible for note taking under $800", "constraints": {"category": "2-in-1", "max_price": 800}}
+{"id": "q08", "query": "laptop for video editing with an NVIDIA RTX GPU", "constraints": {"category": "creator", "dedicated_gpu": true}}
+{"id": "q09", "query": "Dell ultrabook", "constraints": {"brand": "Dell", "category": "ultrabook"}}
+{"id": "q10", "query": "portable laptop with all-day battery under $1000", "constraints": {"max_price": 1000, "min_battery_hours": 10, "max_weight_kg": 1.4}}
+{"id": "q11", "query": "Lenovo gaming laptop", "constraints": {"brand": "Lenovo", "category": "gaming"}}
+{"id": "q12", "query": "Windows laptop with 1TB storage under $1200", "constraints": {"os": "Windows 11", "min_storage_gb": 1024, "max_price": 1200}}
+{"id": "q13", "query": "RTX 4080 gaming beast", "constraints": {"gpu": "NVIDIA RTX 4080"}}
+{"id": "q14", "query": "light gaming laptop under 2.3kg", "constraints": {"category": "gaming", "max_weight_kg": 2.3}}
+{"id": "q15", "query": "affordable laptop with 16GB RAM under $700", "constraints": {"min_ram_gb": 16, "max_price": 700}}
+{"id": "q16", "query": "macOS laptop under $1500", "constraints": {"os": "macOS", "max_price": 1500}}
+{"id": "q17", "query": "Asus laptop for creative professionals", "constraints": {"brand": "Asus", "category": "creator"}}
+{"id": "q18", "query": "HP business laptop", "constraints": {"brand": "HP", "category": "business"}}
+{"id": "q19", "query": "budget 2-in-1 under $700", "constraints": {"category": "2-in-1", "max_price": 700}}
+{"id": "q20", "query": "big 17 inch gaming laptop", "constraints": {"category": "gaming", "min_screen_inch": 17}}
+{"id": "q21", "query": "13 inch ultraportable laptop", "constraints": {"max_screen_inch": 13.5, "max_weight_kg": 1.4}}
+{"id": "q22", "query": "laptop with an OLED display", "constraints": {"panel": "OLED"}}
+{"id": "q23", "query": "laptop with a 240Hz high refresh rate screen", "constraints": {"min_refresh_hz": 240}}
+{"id": "q24", "query": "Acer laptop under $600", "constraints": {"brand": "Acer", "max_price": 600}}
+{"id": "q25", "query": "MSI gaming laptop with RTX 4060", "constraints": {"brand": "MSI", "gpu": "NVIDIA RTX 4060"}}
+{"id": "q26", "query": "laptop for travelling that lasts a full day, under 1.3kg", "constraints": {"min_battery_hours": 10, "max_weight_kg": 1.3}}
+{"id": "q27", "query": "premium ultrabook with 32GB RAM", "constraints": {"category": "ultrabook", "min_ram_gb": 32}}
+{"id": "q28", "query": "cheapest gaming laptop", "constraints": {"category": "gaming", "max_price": 1100}}
+{"id": "q29", "query": "data science laptop with 32GB+ RAM and a dedicated GPU", "constraints": {"min_ram_gb": 32, "dedicated_gpu": true}}
+{"id": "q30", "query": "Apple laptop with the M4 Pro chip", "constraints": {"brand": "Apple", "cpu_contains": "M4 Pro"}}

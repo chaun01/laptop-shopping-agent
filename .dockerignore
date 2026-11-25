@@ -1,0 +1,10 @@
+.venv
+.env
+data/shop.db
+data/qdrant
+data/*.db*
+data/processed
+evals/reports
+.git
+**/__pycache__
+.pytest_cache

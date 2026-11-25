@@ -1,0 +1,51 @@
+name: tests-and-evals
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  unit-tests:
+    # Fast, offline, free: DB, tools, MCP cart, guardrails, graph routing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e ".[dev]"
+      - run: python scripts/generate_data.py && python scripts/load_db.py
+      - run: pytest -q
+
+  agent-eval:
+    # LLM-based regression gate. Runs on PRs and manual dispatch; needs the OPENAI_API_KEY secret.
+    needs: unit-tests
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+      LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+      LANGFUSE_HOST: https://cloud.langfuse.com
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e ".[dev]"
+      - run: python scripts/generate_data.py && python scripts/load_db.py && python -m laptop_agent.rag.index
+      - name: Retrieval eval (v1 vs v2)
+        run: python evals/run_retrieval_eval.py --variants v1_dense,v2_rewrite_filters
+      - name: Agent eval + regression gate
+        run: python evals/run_agent_eval.py --label ci --gate
+      - name: Publish report to job summary
+        if: always()
+        run: |
+          cat evals/reports/retrieval_eval.md >> $GITHUB_STEP_SUMMARY
+          cat evals/reports/agent_eval_ci.md >> $GITHUB_STEP_SUMMARY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-reports
+          path: evals/reports/

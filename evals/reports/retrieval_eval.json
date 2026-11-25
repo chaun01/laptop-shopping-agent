@@ -1,0 +1,2782 @@
+{
+  "v1_dense": {
+    "summary": {
+      "variant": "v1_dense",
+      "p_at_5": 0.52,
+      "hit_at_1": 0.533,
+      "mrr": 0.634,
+      "latency_p50_s": 0.4,
+      "latency_p95_s": 0.83
+    },
+    "cases": [
+      {
+        "id": "q01",
+        "query": "cheap laptop for college under $500",
+        "n_relevant_in_catalog": 26,
+        "returned": [
+          "LP177",
+          "LP168",
+          "LP042",
+          "LP108",
+          "LP037"
+        ],
+        "relevant": [
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.18
+      },
+      {
+        "id": "q02",
+        "query": "gaming laptop under $1300 with dedicated graphics",
+        "n_relevant_in_catalog": 1,
+        "returned": [
+          "LP181",
+          "LP082",
+          "LP128",
+          "LP089",
+          "LP090"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.83
+      },
+      {
+        "id": "q03",
+        "query": "super lightweight laptop under 1.2 kg",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP041",
+          "LP080",
+          "LP042",
+          "LP083",
+          "LP037"
+        ],
+        "relevant": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.5,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q04",
+        "query": "laptop with at least 15 hours of battery life",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP031",
+          "LP077",
+          "LP108",
+          "LP096",
+          "LP037"
+        ],
+        "relevant": [
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q05",
+        "query": "MacBook for programming",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP197",
+          "LP138",
+          "LP006",
+          "LP019",
+          "LP098"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.43
+      },
+      {
+        "id": "q06",
+        "query": "business laptop with 32GB RAM",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP071",
+          "LP045",
+          "LP065",
+          "LP087",
+          "LP144"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.41
+      },
+      {
+        "id": "q07",
+        "query": "2-in-1 convertible for note taking under $800",
+        "n_relevant_in_catalog": 27,
+        "returned": [
+          "LP056",
+          "LP057",
+          "LP151",
+          "LP091",
+          "LP176"
+        ],
+        "relevant": [
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q08",
+        "query": "laptop for video editing with an NVIDIA RTX GPU",
+        "n_relevant_in_catalog": 19,
+        "returned": [
+          "LP008",
+          "LP013",
+          "LP179",
+          "LP044",
+          "LP145"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.51
+      },
+      {
+        "id": "q09",
+        "query": "Dell ultrabook",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP107",
+          "LP110",
+          "LP096",
+          "LP024",
+          "LP031"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.43
+      },
+      {
+        "id": "q10",
+        "query": "portable laptop with all-day battery under $1000",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP024",
+          "LP136",
+          "LP133",
+          "LP013",
+          "LP153"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.41
+      },
+      {
+        "id": "q11",
+        "query": "Lenovo gaming laptop",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP154",
+          "LP186",
+          "LP079",
+          "LP148",
+          "LP090"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.52
+      },
+      {
+        "id": "q12",
+        "query": "Windows laptop with 1TB storage under $1200",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP056",
+          "LP042",
+          "LP133",
+          "LP069",
+          "LP037"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.56
+      },
+      {
+        "id": "q13",
+        "query": "RTX 4080 gaming beast",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP172",
+          "LP089",
+          "LP173",
+          "LP030",
+          "LP082"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q14",
+        "query": "light gaming laptop under 2.3kg",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP154",
+          "LP186",
+          "LP128",
+          "LP079",
+          "LP090"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.2,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q15",
+        "query": "affordable laptop with 16GB RAM under $700",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP121",
+          "LP088",
+          "LP038",
+          "LP174",
+          "LP070"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q16",
+        "query": "macOS laptop under $1500",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP116",
+          "LP098",
+          "LP006",
+          "LP138",
+          "LP197"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q17",
+        "query": "Asus laptop for creative professionals",
+        "n_relevant_in_catalog": 8,
+        "returned": [
+          "LP153",
+          "LP179",
+          "LP013",
+          "LP145",
+          "LP008"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.42
+      },
+      {
+        "id": "q18",
+        "query": "HP business laptop",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP022",
+          "LP004",
+          "LP156",
+          "LP097",
+          "LP137"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q19",
+        "query": "budget 2-in-1 under $700",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP147",
+          "LP029",
+          "LP021",
+          "LP180",
+          "LP062"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.25,
+        "latency_s": 0.48
+      },
+      {
+        "id": "q20",
+        "query": "big 17 inch gaming laptop",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP093",
+          "LP128",
+          "LP182",
+          "LP094",
+          "LP030"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q21",
+        "query": "13 inch ultraportable laptop",
+        "n_relevant_in_catalog": 33,
+        "returned": [
+          "LP054",
+          "LP133",
+          "LP107",
+          "LP136",
+          "LP100"
+        ],
+        "relevant": [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.3333333333333333,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q22",
+        "query": "laptop with an OLED display",
+        "n_relevant_in_catalog": 30,
+        "returned": [
+          "LP024",
+          "LP096",
+          "LP107",
+          "LP043",
+          "LP033"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.45
+      },
+      {
+        "id": "q23",
+        "query": "laptop with a 240Hz high refresh rate screen",
+        "n_relevant_in_catalog": 10,
+        "returned": [
+          "LP163",
+          "LP142",
+          "LP130",
+          "LP184",
+          "LP196"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q24",
+        "query": "Acer laptop under $600",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP174",
+          "LP121",
+          "LP088",
+          "LP198",
+          "LP032"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.36
+      },
+      {
+        "id": "q25",
+        "query": "MSI gaming laptop with RTX 4060",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP163",
+          "LP106",
+          "LP142",
+          "LP178",
+          "LP160"
+        ],
+        "relevant": [
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 0.0,
+        "mrr": 0.5,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q26",
+        "query": "laptop for travelling that lasts a full day, under 1.3kg",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP136",
+          "LP133",
+          "LP068",
+          "LP113",
+          "LP046"
+        ],
+        "relevant": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.5,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q27",
+        "query": "premium ultrabook with 32GB RAM",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP041",
+          "LP015",
+          "LP022",
+          "LP068",
+          "LP033"
+        ],
+        "relevant": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.5,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q28",
+        "query": "cheapest gaming laptop",
+        "n_relevant_in_catalog": 0,
+        "returned": [
+          "LP079",
+          "LP148",
+          "LP082",
+          "LP090",
+          "LP186"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q29",
+        "query": "data science laptop with 32GB+ RAM and a dedicated GPU",
+        "n_relevant_in_catalog": 39,
+        "returned": [
+          "LP112",
+          "LP179",
+          "LP008",
+          "LP145",
+          "LP109"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q30",
+        "query": "Apple laptop with the M4 Pro chip",
+        "n_relevant_in_catalog": 2,
+        "returned": [
+          "LP138",
+          "LP197",
+          "LP006",
+          "LP129",
+          "LP098"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.25,
+        "latency_s": 0.38
+      }
+    ]
+  },
+  "v2_hybrid_no_rewrite": {
+    "summary": {
+      "variant": "v2_hybrid_no_rewrite",
+      "p_at_5": 0.587,
+      "hit_at_1": 0.667,
+      "mrr": 0.726,
+      "latency_p50_s": 0.39,
+      "latency_p95_s": 0.42
+    },
+    "cases": [
+      {
+        "id": "q01",
+        "query": "cheap laptop for college under $500",
+        "n_relevant_in_catalog": 26,
+        "returned": [
+          "LP177",
+          "LP073",
+          "LP168",
+          "LP116",
+          "LP042"
+        ],
+        "relevant": [
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.41
+      },
+      {
+        "id": "q02",
+        "query": "gaming laptop under $1300 with dedicated graphics",
+        "n_relevant_in_catalog": 1,
+        "returned": [
+          "LP163",
+          "LP009",
+          "LP026",
+          "LP181",
+          "LP079"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.2,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q03",
+        "query": "super lightweight laptop under 1.2 kg",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP041",
+          "LP002",
+          "LP080",
+          "LP111",
+          "LP042"
+        ],
+        "relevant": [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.3333333333333333,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q04",
+        "query": "laptop with at least 15 hours of battery life",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP031",
+          "LP124",
+          "LP037",
+          "LP066",
+          "LP077"
+        ],
+        "relevant": [
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q05",
+        "query": "MacBook for programming",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP006",
+          "LP116",
+          "LP019",
+          "LP155",
+          "LP073"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q06",
+        "query": "business laptop with 32GB RAM",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP045",
+          "LP071",
+          "LP087",
+          "LP022",
+          "LP055"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q07",
+        "query": "2-in-1 convertible for note taking under $800",
+        "n_relevant_in_catalog": 27,
+        "returned": [
+          "LP135",
+          "LP056",
+          "LP057",
+          "LP005",
+          "LP047"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q08",
+        "query": "laptop for video editing with an NVIDIA RTX GPU",
+        "n_relevant_in_catalog": 19,
+        "returned": [
+          "LP010",
+          "LP072",
+          "LP105",
+          "LP160",
+          "LP008"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.41
+      },
+      {
+        "id": "q09",
+        "query": "Dell ultrabook",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP107",
+          "LP024",
+          "LP110",
+          "LP096",
+          "LP031"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q10",
+        "query": "portable laptop with all-day battery under $1000",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP024",
+          "LP096",
+          "LP073",
+          "LP136",
+          "LP116"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q11",
+        "query": "Lenovo gaming laptop",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP154",
+          "LP079",
+          "LP186",
+          "LP148",
+          "LP051"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.41
+      },
+      {
+        "id": "q12",
+        "query": "Windows laptop with 1TB storage under $1200",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP042",
+          "LP037",
+          "LP056",
+          "LP015",
+          "LP024"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q13",
+        "query": "RTX 4080 gaming beast",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP172",
+          "LP089",
+          "LP017",
+          "LP030",
+          "LP028"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.42
+      },
+      {
+        "id": "q14",
+        "query": "light gaming laptop under 2.3kg",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP079",
+          "LP154",
+          "LP186",
+          "LP093",
+          "LP030"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.25,
+        "latency_s": 0.37
+      },
+      {
+        "id": "q15",
+        "query": "affordable laptop with 16GB RAM under $700",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP038",
+          "LP076",
+          "LP121",
+          "LP155",
+          "LP088"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.42
+      },
+      {
+        "id": "q16",
+        "query": "macOS laptop under $1500",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP116",
+          "LP006",
+          "LP132",
+          "LP170",
+          "LP073"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.25,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q17",
+        "query": "Asus laptop for creative professionals",
+        "n_relevant_in_catalog": 8,
+        "returned": [
+          "LP080",
+          "LP069",
+          "LP164",
+          "LP041",
+          "LP056"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q18",
+        "query": "HP business laptop",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP022",
+          "LP004",
+          "LP039",
+          "LP097",
+          "LP055"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.43
+      },
+      {
+        "id": "q19",
+        "query": "budget 2-in-1 under $700",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP029",
+          "LP111",
+          "LP190",
+          "LP062",
+          "LP114"
+        ],
+        "relevant": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 0.0,
+        "mrr": 0.5,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q20",
+        "query": "big 17 inch gaming laptop",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP181",
+          "LP093",
+          "LP154",
+          "LP128",
+          "LP163"
+        ],
+        "relevant": [
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q21",
+        "query": "13 inch ultraportable laptop",
+        "n_relevant_in_catalog": 33,
+        "returned": [
+          "LP155",
+          "LP054",
+          "LP015",
+          "LP133",
+          "LP024"
+        ],
+        "relevant": [
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q22",
+        "query": "laptop with an OLED display",
+        "n_relevant_in_catalog": 30,
+        "returned": [
+          "LP024",
+          "LP096",
+          "LP033",
+          "LP015",
+          "LP025"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.39
+      },
+      {
+        "id": "q23",
+        "query": "laptop with a 240Hz high refresh rate screen",
+        "n_relevant_in_catalog": 10,
+        "returned": [
+          "LP163",
+          "LP142",
+          "LP130",
+          "LP079",
+          "LP184"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q24",
+        "query": "Acer laptop under $600",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP032",
+          "LP088",
+          "LP121",
+          "LP036",
+          "LP046"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.42
+      },
+      {
+        "id": "q25",
+        "query": "MSI gaming laptop with RTX 4060",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP106",
+          "LP120",
+          "LP178",
+          "LP160",
+          "LP163"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.41
+      },
+      {
+        "id": "q26",
+        "query": "laptop for travelling that lasts a full day, under 1.3kg",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP046",
+          "LP136",
+          "LP002",
+          "LP133",
+          "LP111"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 0.0,
+        "mrr": 0.25,
+        "latency_s": 0.42
+      },
+      {
+        "id": "q27",
+        "query": "premium ultrabook with 32GB RAM",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP015",
+          "LP041",
+          "LP073",
+          "LP116",
+          "LP022"
+        ],
+        "relevant": [
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.6,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.38
+      },
+      {
+        "id": "q28",
+        "query": "cheapest gaming laptop",
+        "n_relevant_in_catalog": 0,
+        "returned": [
+          "LP079",
+          "LP148",
+          "LP186",
+          "LP154",
+          "LP163"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q29",
+        "query": "data science laptop with 32GB+ RAM and a dedicated GPU",
+        "n_relevant_in_catalog": 39,
+        "returned": [
+          "LP082",
+          "LP089",
+          "LP112",
+          "LP103",
+          "LP179"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.4
+      },
+      {
+        "id": "q30",
+        "query": "Apple laptop with the M4 Pro chip",
+        "n_relevant_in_catalog": 2,
+        "returned": [
+          "LP129",
+          "LP006",
+          "LP138",
+          "LP019",
+          "LP197"
+        ],
+        "relevant": [
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 0.41
+      }
+    ]
+  },
+  "v2_rewrite_filters": {
+    "summary": {
+      "variant": "v2_rewrite_filters",
+      "p_at_5": 0.84,
+      "hit_at_1": 0.933,
+      "mrr": 0.933,
+      "latency_p50_s": 3.07,
+      "latency_p95_s": 3.96
+    },
+    "cases": [
+      {
+        "id": "q01",
+        "query": "cheap laptop for college under $500",
+        "n_relevant_in_catalog": 26,
+        "returned": [
+          "LP037",
+          "LP115",
+          "LP084",
+          "LP076",
+          "LP049"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.96
+      },
+      {
+        "id": "q02",
+        "query": "gaming laptop under $1300 with dedicated graphics",
+        "n_relevant_in_catalog": 1,
+        "returned": [
+          "LP079"
+        ],
+        "relevant": [
+          true
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.9
+      },
+      {
+        "id": "q03",
+        "query": "super lightweight laptop under 1.2 kg",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP104",
+          "LP033",
+          "LP080",
+          "LP140",
+          "LP150"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.03
+      },
+      {
+        "id": "q04",
+        "query": "laptop with at least 15 hours of battery life",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP031",
+          "LP124",
+          "LP066",
+          "LP022",
+          "LP136"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.91
+      },
+      {
+        "id": "q05",
+        "query": "MacBook for programming",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP116",
+          "LP073",
+          "LP170",
+          "LP155",
+          "LP132"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.0
+      },
+      {
+        "id": "q06",
+        "query": "business laptop with 32GB RAM",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP045",
+          "LP071",
+          "LP022",
+          "LP055",
+          "LP122"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.04
+      },
+      {
+        "id": "q07",
+        "query": "2-in-1 convertible for note taking under $800",
+        "n_relevant_in_catalog": 27,
+        "returned": [
+          "LP135",
+          "LP056",
+          "LP047",
+          "LP005",
+          "LP057"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.25
+      },
+      {
+        "id": "q08",
+        "query": "laptop for video editing with an NVIDIA RTX GPU",
+        "n_relevant_in_catalog": 19,
+        "returned": [
+          "LP013",
+          "LP044",
+          "LP020",
+          "LP072",
+          "LP010"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.18
+      },
+      {
+        "id": "q09",
+        "query": "Dell ultrabook",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP096",
+          "LP107",
+          "LP024",
+          "LP110"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.95
+      },
+      {
+        "id": "q10",
+        "query": "portable laptop with all-day battery under $1000",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP041",
+          "LP157",
+          "LP004",
+          "LP047",
+          "LP171"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.15
+      },
+      {
+        "id": "q11",
+        "query": "Lenovo gaming laptop",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP154",
+          "LP079",
+          "LP186",
+          "LP148"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.12
+      },
+      {
+        "id": "q12",
+        "query": "Windows laptop with 1TB storage under $1200",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP016",
+          "LP102",
+          "LP124",
+          "LP004",
+          "LP144"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 2.87
+      },
+      {
+        "id": "q13",
+        "query": "RTX 4080 gaming beast",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP172",
+          "LP089",
+          "LP030",
+          "LP028",
+          "LP017"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.85
+      },
+      {
+        "id": "q14",
+        "query": "light gaming laptop under 2.3kg",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP093",
+          "LP119",
+          "LP163",
+          "LP090",
+          "LP189"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 8.41
+      },
+      {
+        "id": "q15",
+        "query": "affordable laptop with 16GB RAM under $700",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP038",
+          "LP076",
+          "LP042",
+          "LP121",
+          "LP088"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.89
+      },
+      {
+        "id": "q16",
+        "query": "macOS laptop under $1500",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP170",
+          "LP155",
+          "LP192",
+          "LP183"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.07
+      },
+      {
+        "id": "q17",
+        "query": "Asus laptop for creative professionals",
+        "n_relevant_in_catalog": 8,
+        "returned": [
+          "LP013",
+          "LP179",
+          "LP145",
+          "LP044",
+          "LP153"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.17
+      },
+      {
+        "id": "q18",
+        "query": "HP business laptop",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP022",
+          "LP004",
+          "LP039",
+          "LP097",
+          "LP055"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.97
+      },
+      {
+        "id": "q19",
+        "query": "budget 2-in-1 under $700",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP056",
+          "LP005",
+          "LP135",
+          "LP190",
+          "LP111"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.07
+      },
+      {
+        "id": "q20",
+        "query": "big 17 inch gaming laptop",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP082",
+          "LP181",
+          "LP074",
+          "LP009",
+          "LP093"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.07
+      },
+      {
+        "id": "q21",
+        "query": "13 inch ultraportable laptop",
+        "n_relevant_in_catalog": 33,
+        "returned": [
+          "LP155",
+          "LP073",
+          "LP132",
+          "LP170",
+          "LP171"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.07
+      },
+      {
+        "id": "q22",
+        "query": "laptop with an OLED display",
+        "n_relevant_in_catalog": 30,
+        "returned": [
+          "LP024",
+          "LP096",
+          "LP015",
+          "LP033",
+          "LP025"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.97
+      },
+      {
+        "id": "q23",
+        "query": "laptop with a 240Hz high refresh rate screen",
+        "n_relevant_in_catalog": 10,
+        "returned": [
+          "LP163",
+          "LP142",
+          "LP079",
+          "LP130",
+          "LP196"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.87
+      },
+      {
+        "id": "q24",
+        "query": "Acer laptop under $600",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP121",
+          "LP088",
+          "LP174",
+          "LP032",
+          "LP198"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.69
+      },
+      {
+        "id": "q25",
+        "query": "MSI gaming laptop with RTX 4060",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP106",
+          "LP163",
+          "LP142",
+          "LP119",
+          "LP120"
+        ],
+        "relevant": [
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.25
+      },
+      {
+        "id": "q26",
+        "query": "laptop for travelling that lasts a full day, under 1.3kg",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP104",
+          "LP033",
+          "LP015",
+          "LP133",
+          "LP041"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.2
+      },
+      {
+        "id": "q27",
+        "query": "premium ultrabook with 32GB RAM",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP015",
+          "LP116",
+          "LP024",
+          "LP132",
+          "LP183"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.79
+      },
+      {
+        "id": "q28",
+        "query": "cheapest gaming laptop",
+        "n_relevant_in_catalog": 0,
+        "returned": [
+          "LP079",
+          "LP148",
+          "LP009",
+          "LP163",
+          "LP082"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 3.07
+      },
+      {
+        "id": "q29",
+        "query": "data science laptop with 32GB+ RAM and a dedicated GPU",
+        "n_relevant_in_catalog": 39,
+        "returned": [
+          "LP103",
+          "LP141",
+          "LP082",
+          "LP112",
+          "LP179"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.93
+      },
+      {
+        "id": "q30",
+        "query": "Apple laptop with the M4 Pro chip",
+        "n_relevant_in_catalog": 2,
+        "returned": [
+          "LP129",
+          "LP006",
+          "LP138",
+          "LP019",
+          "LP197"
+        ],
+        "relevant": [
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 2.91
+      }
+    ]
+  },
+  "v2_full_rerank": {
+    "summary": {
+      "variant": "v2_full_rerank",
+      "p_at_5": 0.853,
+      "hit_at_1": 0.967,
+      "mrr": 0.967,
+      "latency_p50_s": 5.61,
+      "latency_p95_s": 11.89
+    },
+    "cases": [
+      {
+        "id": "q01",
+        "query": "cheap laptop for college under $500",
+        "n_relevant_in_catalog": 26,
+        "returned": [
+          "LP037",
+          "LP084",
+          "LP059",
+          "LP115",
+          "LP100"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.61
+      },
+      {
+        "id": "q02",
+        "query": "gaming laptop under $1300 with dedicated graphics",
+        "n_relevant_in_catalog": 1,
+        "returned": [
+          "LP079"
+        ],
+        "relevant": [
+          true
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 3.04
+      },
+      {
+        "id": "q03",
+        "query": "super lightweight laptop under 1.2 kg",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP132",
+          "LP170",
+          "LP104",
+          "LP080",
+          "LP140"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.44
+      },
+      {
+        "id": "q04",
+        "query": "laptop with at least 15 hours of battery life",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP080",
+          "LP096",
+          "LP027",
+          "LP031",
+          "LP066"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 7.89
+      },
+      {
+        "id": "q05",
+        "query": "MacBook for programming",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP132",
+          "LP116",
+          "LP073",
+          "LP170",
+          "LP155"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 11.57
+      },
+      {
+        "id": "q06",
+        "query": "business laptop with 32GB RAM",
+        "n_relevant_in_catalog": 20,
+        "returned": [
+          "LP045",
+          "LP071",
+          "LP022",
+          "LP055",
+          "LP136"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.32
+      },
+      {
+        "id": "q07",
+        "query": "2-in-1 convertible for note taking under $800",
+        "n_relevant_in_catalog": 27,
+        "returned": [
+          "LP139",
+          "LP194",
+          "LP190",
+          "LP047",
+          "LP005"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.33
+      },
+      {
+        "id": "q08",
+        "query": "laptop for video editing with an NVIDIA RTX GPU",
+        "n_relevant_in_catalog": 19,
+        "returned": [
+          "LP145",
+          "LP044",
+          "LP013",
+          "LP010",
+          "LP020"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.73
+      },
+      {
+        "id": "q09",
+        "query": "Dell ultrabook",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP107",
+          "LP024",
+          "LP110",
+          "LP096"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.53
+      },
+      {
+        "id": "q10",
+        "query": "portable laptop with all-day battery under $1000",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP041",
+          "LP157",
+          "LP171",
+          "LP194",
+          "LP003"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.43
+      },
+      {
+        "id": "q11",
+        "query": "Lenovo gaming laptop",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP148",
+          "LP154",
+          "LP186",
+          "LP079"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.63
+      },
+      {
+        "id": "q12",
+        "query": "Windows laptop with 1TB storage under $1200",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP080",
+          "LP111",
+          "LP005",
+          "LP180",
+          "LP114"
+        ],
+        "relevant": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.2,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.63
+      },
+      {
+        "id": "q13",
+        "query": "RTX 4080 gaming beast",
+        "n_relevant_in_catalog": 14,
+        "returned": [
+          "LP089",
+          "LP082",
+          "LP173",
+          "LP189",
+          "LP148"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.32
+      },
+      {
+        "id": "q14",
+        "query": "light gaming laptop under 2.3kg",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP189",
+          "LP119",
+          "LP163",
+          "LP090",
+          "LP094"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.63
+      },
+      {
+        "id": "q15",
+        "query": "affordable laptop with 16GB RAM under $700",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP038",
+          "LP161",
+          "LP076",
+          "LP051",
+          "LP108"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.61
+      },
+      {
+        "id": "q16",
+        "query": "macOS laptop under $1500",
+        "n_relevant_in_catalog": 4,
+        "returned": [
+          "LP155",
+          "LP170",
+          "LP192",
+          "LP183"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 0.8,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.03
+      },
+      {
+        "id": "q17",
+        "query": "Asus laptop for creative professionals",
+        "n_relevant_in_catalog": 8,
+        "returned": [
+          "LP013",
+          "LP145",
+          "LP112",
+          "LP044",
+          "LP109"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 6.04
+      },
+      {
+        "id": "q18",
+        "query": "HP business laptop",
+        "n_relevant_in_catalog": 9,
+        "returned": [
+          "LP022",
+          "LP039",
+          "LP066",
+          "LP137",
+          "LP055"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 12.18
+      },
+      {
+        "id": "q19",
+        "query": "budget 2-in-1 under $700",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP190",
+          "LP003",
+          "LP005",
+          "LP114",
+          "LP111"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.73
+      },
+      {
+        "id": "q20",
+        "query": "big 17 inch gaming laptop",
+        "n_relevant_in_catalog": 7,
+        "returned": [
+          "LP181",
+          "LP082",
+          "LP154",
+          "LP009",
+          "LP175"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 6.35
+      },
+      {
+        "id": "q21",
+        "query": "13 inch ultraportable laptop",
+        "n_relevant_in_catalog": 33,
+        "returned": [
+          "LP155",
+          "LP132",
+          "LP170",
+          "LP024",
+          "LP107"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.43
+      },
+      {
+        "id": "q22",
+        "query": "laptop with an OLED display",
+        "n_relevant_in_catalog": 30,
+        "returned": [
+          "LP024",
+          "LP107",
+          "LP096",
+          "LP015",
+          "LP033"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.43
+      },
+      {
+        "id": "q23",
+        "query": "laptop with a 240Hz high refresh rate screen",
+        "n_relevant_in_catalog": 10,
+        "returned": [
+          "LP142",
+          "LP163",
+          "LP184",
+          "LP130",
+          "LP079"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.53
+      },
+      {
+        "id": "q24",
+        "query": "Acer laptop under $600",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP121",
+          "LP088",
+          "LP161",
+          "LP198",
+          "LP174"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.02
+      },
+      {
+        "id": "q25",
+        "query": "MSI gaming laptop with RTX 4060",
+        "n_relevant_in_catalog": 6,
+        "returned": [
+          "LP120",
+          "LP106",
+          "LP189",
+          "LP142",
+          "LP163"
+        ],
+        "relevant": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.32
+      },
+      {
+        "id": "q26",
+        "query": "laptop for travelling that lasts a full day, under 1.3kg",
+        "n_relevant_in_catalog": 40,
+        "returned": [
+          "LP104",
+          "LP080",
+          "LP150",
+          "LP140",
+          "LP134"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.94
+      },
+      {
+        "id": "q27",
+        "query": "premium ultrabook with 32GB RAM",
+        "n_relevant_in_catalog": 15,
+        "returned": [
+          "LP132",
+          "LP073",
+          "LP116",
+          "LP104",
+          "LP183"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 7.17
+      },
+      {
+        "id": "q28",
+        "query": "cheapest gaming laptop",
+        "n_relevant_in_catalog": 0,
+        "returned": [
+          "LP009",
+          "LP079",
+          "LP090",
+          "LP120",
+          "LP106"
+        ],
+        "relevant": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.0,
+        "hit_at_1": 0.0,
+        "mrr": 0.0,
+        "latency_s": 11.89
+      },
+      {
+        "id": "q29",
+        "query": "data science laptop with 32GB+ RAM and a dedicated GPU",
+        "n_relevant_in_catalog": 39,
+        "returned": [
+          "LP145",
+          "LP044",
+          "LP112",
+          "LP141",
+          "LP103"
+        ],
+        "relevant": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "p_at_5": 1.0,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.52
+      },
+      {
+        "id": "q30",
+        "query": "Apple laptop with the M4 Pro chip",
+        "n_relevant_in_catalog": 2,
+        "returned": [
+          "LP019",
+          "LP129",
+          "LP166",
+          "LP197",
+          "LP006"
+        ],
+        "relevant": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "p_at_5": 0.4,
+        "hit_at_1": 1.0,
+        "mrr": 1.0,
+        "latency_s": 5.63
+      }
+    ]
+  }
+}

@@ -1,0 +1,6709 @@
+[
+  {
+    "id": "RV0001",
+    "product_id": "LP001",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0002",
+    "product_id": "LP001",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery",
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0003",
+    "product_id": "LP001",
+    "rating": 2,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0004",
+    "product_id": "LP001",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0005",
+    "product_id": "LP002",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0006",
+    "product_id": "LP002",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0007",
+    "product_id": "LP003",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0008",
+    "product_id": "LP003",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0009",
+    "product_id": "LP003",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0010",
+    "product_id": "LP004",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0011",
+    "product_id": "LP004",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0012",
+    "product_id": "LP004",
+    "rating": 3,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0013",
+    "product_id": "LP004",
+    "rating": 4,
+    "text": "Build quality feels premium and solid. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "build",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0014",
+    "product_id": "LP005",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0015",
+    "product_id": "LP005",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "battery",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0016",
+    "product_id": "LP006",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0017",
+    "product_id": "LP006",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0018",
+    "product_id": "LP006",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0019",
+    "product_id": "LP006",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0020",
+    "product_id": "LP007",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0021",
+    "product_id": "LP007",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0022",
+    "product_id": "LP008",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0023",
+    "product_id": "LP008",
+    "rating": 2,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0024",
+    "product_id": "LP008",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0025",
+    "product_id": "LP008",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0026",
+    "product_id": "LP009",
+    "rating": 2,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0027",
+    "product_id": "LP009",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0028",
+    "product_id": "LP009",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0029",
+    "product_id": "LP009",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0030",
+    "product_id": "LP010",
+    "rating": 2,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. A bit expensive for what you get.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0031",
+    "product_id": "LP010",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0032",
+    "product_id": "LP010",
+    "rating": 2,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0033",
+    "product_id": "LP011",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0034",
+    "product_id": "LP011",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0035",
+    "product_id": "LP011",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0036",
+    "product_id": "LP011",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0037",
+    "product_id": "LP012",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0038",
+    "product_id": "LP012",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0039",
+    "product_id": "LP013",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0040",
+    "product_id": "LP013",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0041",
+    "product_id": "LP013",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0042",
+    "product_id": "LP013",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0043",
+    "product_id": "LP014",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0044",
+    "product_id": "LP014",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0045",
+    "product_id": "LP014",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0046",
+    "product_id": "LP014",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0047",
+    "product_id": "LP015",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0048",
+    "product_id": "LP015",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0049",
+    "product_id": "LP015",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0050",
+    "product_id": "LP016",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "keyboard",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0051",
+    "product_id": "LP016",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "screen",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0052",
+    "product_id": "LP017",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0053",
+    "product_id": "LP017",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0054",
+    "product_id": "LP017",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0055",
+    "product_id": "LP017",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0056",
+    "product_id": "LP018",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0057",
+    "product_id": "LP018",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0058",
+    "product_id": "LP018",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0059",
+    "product_id": "LP019",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery easily lasts my whole work day, I rarely carry the charger. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf",
+      "battery"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0060",
+    "product_id": "LP019",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0061",
+    "product_id": "LP019",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0062",
+    "product_id": "LP020",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0063",
+    "product_id": "LP020",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0064",
+    "product_id": "LP021",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0065",
+    "product_id": "LP021",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0066",
+    "product_id": "LP021",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0067",
+    "product_id": "LP022",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "keyboard",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0068",
+    "product_id": "LP022",
+    "rating": 4,
+    "text": "Build quality feels premium and solid. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "build",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0069",
+    "product_id": "LP022",
+    "rating": 4,
+    "text": "Build quality feels premium and solid. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "build",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0070",
+    "product_id": "LP023",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0071",
+    "product_id": "LP023",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0072",
+    "product_id": "LP023",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0073",
+    "product_id": "LP023",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0074",
+    "product_id": "LP024",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0075",
+    "product_id": "LP024",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0076",
+    "product_id": "LP025",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0077",
+    "product_id": "LP025",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0078",
+    "product_id": "LP026",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0079",
+    "product_id": "LP026",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0080",
+    "product_id": "LP026",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0081",
+    "product_id": "LP027",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0082",
+    "product_id": "LP027",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0083",
+    "product_id": "LP027",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0084",
+    "product_id": "LP027",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0085",
+    "product_id": "LP028",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0086",
+    "product_id": "LP028",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0087",
+    "product_id": "LP028",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0088",
+    "product_id": "LP029",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0089",
+    "product_id": "LP029",
+    "rating": 2,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0090",
+    "product_id": "LP029",
+    "rating": 2,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0091",
+    "product_id": "LP029",
+    "rating": 2,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0092",
+    "product_id": "LP030",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0093",
+    "product_id": "LP030",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0094",
+    "product_id": "LP031",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0095",
+    "product_id": "LP031",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. Build quality feels premium and solid.",
+    "aspects_pos": [
+      "keyboard",
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0096",
+    "product_id": "LP031",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0097",
+    "product_id": "LP032",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0098",
+    "product_id": "LP032",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0099",
+    "product_id": "LP032",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0100",
+    "product_id": "LP032",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0101",
+    "product_id": "LP033",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0102",
+    "product_id": "LP033",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0103",
+    "product_id": "LP034",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0104",
+    "product_id": "LP034",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0105",
+    "product_id": "LP034",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0106",
+    "product_id": "LP034",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0107",
+    "product_id": "LP035",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0108",
+    "product_id": "LP035",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0109",
+    "product_id": "LP036",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0110",
+    "product_id": "LP036",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0111",
+    "product_id": "LP036",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0112",
+    "product_id": "LP036",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0113",
+    "product_id": "LP037",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0114",
+    "product_id": "LP037",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0115",
+    "product_id": "LP037",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0116",
+    "product_id": "LP038",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0117",
+    "product_id": "LP038",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0118",
+    "product_id": "LP038",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0119",
+    "product_id": "LP039",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0120",
+    "product_id": "LP039",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "build",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0121",
+    "product_id": "LP040",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0122",
+    "product_id": "LP040",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0123",
+    "product_id": "LP040",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0124",
+    "product_id": "LP041",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0125",
+    "product_id": "LP041",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0126",
+    "product_id": "LP041",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0127",
+    "product_id": "LP041",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0128",
+    "product_id": "LP042",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0129",
+    "product_id": "LP042",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0130",
+    "product_id": "LP042",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0131",
+    "product_id": "LP043",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0132",
+    "product_id": "LP043",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0133",
+    "product_id": "LP044",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0134",
+    "product_id": "LP044",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0135",
+    "product_id": "LP044",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0136",
+    "product_id": "LP045",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0137",
+    "product_id": "LP045",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "screen",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0138",
+    "product_id": "LP046",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0139",
+    "product_id": "LP046",
+    "rating": 3,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0140",
+    "product_id": "LP047",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0141",
+    "product_id": "LP047",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0142",
+    "product_id": "LP047",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0143",
+    "product_id": "LP047",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0144",
+    "product_id": "LP048",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0145",
+    "product_id": "LP048",
+    "rating": 3,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0146",
+    "product_id": "LP048",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0147",
+    "product_id": "LP049",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0148",
+    "product_id": "LP049",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0149",
+    "product_id": "LP050",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0150",
+    "product_id": "LP050",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0151",
+    "product_id": "LP051",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0152",
+    "product_id": "LP051",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0153",
+    "product_id": "LP051",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0154",
+    "product_id": "LP051",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0155",
+    "product_id": "LP052",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "battery",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0156",
+    "product_id": "LP052",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0157",
+    "product_id": "LP052",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "keyboard",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0158",
+    "product_id": "LP052",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "keyboard",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0159",
+    "product_id": "LP053",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "battery",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0160",
+    "product_id": "LP053",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0161",
+    "product_id": "LP054",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0162",
+    "product_id": "LP054",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0163",
+    "product_id": "LP054",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0164",
+    "product_id": "LP054",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0165",
+    "product_id": "LP055",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0166",
+    "product_id": "LP055",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "build",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0167",
+    "product_id": "LP055",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Build quality feels premium and solid.",
+    "aspects_pos": [
+      "battery",
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0168",
+    "product_id": "LP055",
+    "rating": 5,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0169",
+    "product_id": "LP056",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0170",
+    "product_id": "LP056",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0171",
+    "product_id": "LP056",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0172",
+    "product_id": "LP057",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0173",
+    "product_id": "LP057",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0174",
+    "product_id": "LP058",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0175",
+    "product_id": "LP058",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0176",
+    "product_id": "LP059",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0177",
+    "product_id": "LP059",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0178",
+    "product_id": "LP059",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0179",
+    "product_id": "LP060",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "screen",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0180",
+    "product_id": "LP060",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "build",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0181",
+    "product_id": "LP060",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "screen",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0182",
+    "product_id": "LP061",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0183",
+    "product_id": "LP061",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0184",
+    "product_id": "LP061",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. Battery easily lasts my whole work day, I rarely carry the charger. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "battery"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0185",
+    "product_id": "LP061",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0186",
+    "product_id": "LP062",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0187",
+    "product_id": "LP062",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0188",
+    "product_id": "LP062",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0189",
+    "product_id": "LP063",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0190",
+    "product_id": "LP063",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0191",
+    "product_id": "LP064",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0192",
+    "product_id": "LP064",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0193",
+    "product_id": "LP064",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0194",
+    "product_id": "LP065",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. Build quality feels premium and solid.",
+    "aspects_pos": [
+      "keyboard",
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0195",
+    "product_id": "LP065",
+    "rating": 5,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0196",
+    "product_id": "LP065",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0197",
+    "product_id": "LP065",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0198",
+    "product_id": "LP066",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0199",
+    "product_id": "LP066",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0200",
+    "product_id": "LP067",
+    "rating": 2,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0201",
+    "product_id": "LP067",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0202",
+    "product_id": "LP068",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "battery",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0203",
+    "product_id": "LP068",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0204",
+    "product_id": "LP068",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "battery",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0205",
+    "product_id": "LP069",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0206",
+    "product_id": "LP069",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0207",
+    "product_id": "LP069",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0208",
+    "product_id": "LP069",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0209",
+    "product_id": "LP070",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0210",
+    "product_id": "LP070",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0211",
+    "product_id": "LP071",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0212",
+    "product_id": "LP071",
+    "rating": 3,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0213",
+    "product_id": "LP072",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0214",
+    "product_id": "LP072",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0215",
+    "product_id": "LP073",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0216",
+    "product_id": "LP073",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0217",
+    "product_id": "LP073",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0218",
+    "product_id": "LP074",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0219",
+    "product_id": "LP074",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0220",
+    "product_id": "LP074",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0221",
+    "product_id": "LP074",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0222",
+    "product_id": "LP075",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0223",
+    "product_id": "LP075",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0224",
+    "product_id": "LP076",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0225",
+    "product_id": "LP076",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0226",
+    "product_id": "LP076",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0227",
+    "product_id": "LP076",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0228",
+    "product_id": "LP077",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0229",
+    "product_id": "LP077",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0230",
+    "product_id": "LP078",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0231",
+    "product_id": "LP078",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0232",
+    "product_id": "LP078",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "keyboard",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0233",
+    "product_id": "LP078",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0234",
+    "product_id": "LP079",
+    "rating": 2,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0235",
+    "product_id": "LP079",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0236",
+    "product_id": "LP079",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0237",
+    "product_id": "LP080",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0238",
+    "product_id": "LP080",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0239",
+    "product_id": "LP080",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0240",
+    "product_id": "LP080",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0241",
+    "product_id": "LP081",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0242",
+    "product_id": "LP081",
+    "rating": 5,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0243",
+    "product_id": "LP081",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0244",
+    "product_id": "LP081",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "screen",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0245",
+    "product_id": "LP082",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0246",
+    "product_id": "LP082",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0247",
+    "product_id": "LP083",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0248",
+    "product_id": "LP083",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0249",
+    "product_id": "LP083",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0250",
+    "product_id": "LP084",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0251",
+    "product_id": "LP084",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0252",
+    "product_id": "LP084",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0253",
+    "product_id": "LP085",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery easily lasts my whole work day, I rarely carry the charger. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf",
+      "battery"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0254",
+    "product_id": "LP085",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0255",
+    "product_id": "LP085",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery easily lasts my whole work day, I rarely carry the charger. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "battery"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0256",
+    "product_id": "LP086",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0257",
+    "product_id": "LP086",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0258",
+    "product_id": "LP086",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0259",
+    "product_id": "LP086",
+    "rating": 2,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0260",
+    "product_id": "LP087",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0261",
+    "product_id": "LP087",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "build",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0262",
+    "product_id": "LP087",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0263",
+    "product_id": "LP088",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0264",
+    "product_id": "LP088",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0265",
+    "product_id": "LP089",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0266",
+    "product_id": "LP089",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0267",
+    "product_id": "LP089",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0268",
+    "product_id": "LP089",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0269",
+    "product_id": "LP090",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0270",
+    "product_id": "LP090",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0271",
+    "product_id": "LP090",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0272",
+    "product_id": "LP091",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0273",
+    "product_id": "LP091",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "value",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0274",
+    "product_id": "LP092",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0275",
+    "product_id": "LP092",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0276",
+    "product_id": "LP092",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0277",
+    "product_id": "LP092",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0278",
+    "product_id": "LP093",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0279",
+    "product_id": "LP093",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0280",
+    "product_id": "LP094",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0281",
+    "product_id": "LP094",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0282",
+    "product_id": "LP095",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0283",
+    "product_id": "LP095",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0284",
+    "product_id": "LP096",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0285",
+    "product_id": "LP096",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0286",
+    "product_id": "LP096",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0287",
+    "product_id": "LP096",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0288",
+    "product_id": "LP097",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0289",
+    "product_id": "LP097",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "keyboard",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0290",
+    "product_id": "LP098",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0291",
+    "product_id": "LP098",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0292",
+    "product_id": "LP098",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0293",
+    "product_id": "LP098",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0294",
+    "product_id": "LP099",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0295",
+    "product_id": "LP099",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0296",
+    "product_id": "LP099",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0297",
+    "product_id": "LP099",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0298",
+    "product_id": "LP100",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0299",
+    "product_id": "LP100",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0300",
+    "product_id": "LP101",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0301",
+    "product_id": "LP101",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0302",
+    "product_id": "LP101",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0303",
+    "product_id": "LP102",
+    "rating": 4,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0304",
+    "product_id": "LP102",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "build",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0305",
+    "product_id": "LP103",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0306",
+    "product_id": "LP103",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0307",
+    "product_id": "LP103",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0308",
+    "product_id": "LP103",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0309",
+    "product_id": "LP104",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0310",
+    "product_id": "LP104",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0311",
+    "product_id": "LP104",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0312",
+    "product_id": "LP104",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0313",
+    "product_id": "LP105",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0314",
+    "product_id": "LP105",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0315",
+    "product_id": "LP106",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0316",
+    "product_id": "LP106",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0317",
+    "product_id": "LP106",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0318",
+    "product_id": "LP107",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0319",
+    "product_id": "LP107",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0320",
+    "product_id": "LP108",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0321",
+    "product_id": "LP108",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0322",
+    "product_id": "LP108",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0323",
+    "product_id": "LP109",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0324",
+    "product_id": "LP109",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0325",
+    "product_id": "LP110",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0326",
+    "product_id": "LP110",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0327",
+    "product_id": "LP110",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0328",
+    "product_id": "LP110",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0329",
+    "product_id": "LP111",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0330",
+    "product_id": "LP111",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "value",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0331",
+    "product_id": "LP111",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0332",
+    "product_id": "LP112",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0333",
+    "product_id": "LP112",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0334",
+    "product_id": "LP113",
+    "rating": 3,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0335",
+    "product_id": "LP113",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0336",
+    "product_id": "LP113",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0337",
+    "product_id": "LP114",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0338",
+    "product_id": "LP114",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0339",
+    "product_id": "LP114",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0340",
+    "product_id": "LP115",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0341",
+    "product_id": "LP115",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0342",
+    "product_id": "LP115",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0343",
+    "product_id": "LP115",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0344",
+    "product_id": "LP116",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0345",
+    "product_id": "LP116",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0346",
+    "product_id": "LP116",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0347",
+    "product_id": "LP116",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0348",
+    "product_id": "LP117",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0349",
+    "product_id": "LP117",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0350",
+    "product_id": "LP117",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0351",
+    "product_id": "LP118",
+    "rating": 2,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0352",
+    "product_id": "LP118",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0353",
+    "product_id": "LP119",
+    "rating": 2,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0354",
+    "product_id": "LP119",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0355",
+    "product_id": "LP119",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0356",
+    "product_id": "LP120",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0357",
+    "product_id": "LP120",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0358",
+    "product_id": "LP121",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0359",
+    "product_id": "LP121",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0360",
+    "product_id": "LP121",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0361",
+    "product_id": "LP122",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0362",
+    "product_id": "LP122",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0363",
+    "product_id": "LP122",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "build",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0364",
+    "product_id": "LP122",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "build",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0365",
+    "product_id": "LP123",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0366",
+    "product_id": "LP123",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0367",
+    "product_id": "LP123",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0368",
+    "product_id": "LP124",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0369",
+    "product_id": "LP124",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "build",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0370",
+    "product_id": "LP124",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "keyboard",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0371",
+    "product_id": "LP125",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0372",
+    "product_id": "LP125",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0373",
+    "product_id": "LP125",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0374",
+    "product_id": "LP126",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0375",
+    "product_id": "LP126",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0376",
+    "product_id": "LP126",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0377",
+    "product_id": "LP127",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0378",
+    "product_id": "LP127",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0379",
+    "product_id": "LP127",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0380",
+    "product_id": "LP128",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0381",
+    "product_id": "LP128",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0382",
+    "product_id": "LP128",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0383",
+    "product_id": "LP128",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0384",
+    "product_id": "LP129",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0385",
+    "product_id": "LP129",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0386",
+    "product_id": "LP130",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0387",
+    "product_id": "LP130",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0388",
+    "product_id": "LP131",
+    "rating": 2,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0389",
+    "product_id": "LP131",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0390",
+    "product_id": "LP132",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0391",
+    "product_id": "LP132",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0392",
+    "product_id": "LP133",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0393",
+    "product_id": "LP133",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0394",
+    "product_id": "LP133",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "keyboard",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0395",
+    "product_id": "LP134",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0396",
+    "product_id": "LP134",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0397",
+    "product_id": "LP135",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0398",
+    "product_id": "LP135",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0399",
+    "product_id": "LP135",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0400",
+    "product_id": "LP136",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0401",
+    "product_id": "LP136",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "build",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0402",
+    "product_id": "LP136",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Build quality feels premium and solid.",
+    "aspects_pos": [
+      "battery",
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0403",
+    "product_id": "LP137",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0404",
+    "product_id": "LP137",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0405",
+    "product_id": "LP137",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0406",
+    "product_id": "LP137",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0407",
+    "product_id": "LP138",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0408",
+    "product_id": "LP138",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0409",
+    "product_id": "LP139",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0410",
+    "product_id": "LP139",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0411",
+    "product_id": "LP139",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0412",
+    "product_id": "LP140",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0413",
+    "product_id": "LP140",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0414",
+    "product_id": "LP140",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0415",
+    "product_id": "LP140",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0416",
+    "product_id": "LP141",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0417",
+    "product_id": "LP141",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0418",
+    "product_id": "LP141",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "battery",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0419",
+    "product_id": "LP142",
+    "rating": 2,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0420",
+    "product_id": "LP142",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0421",
+    "product_id": "LP142",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0422",
+    "product_id": "LP143",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0423",
+    "product_id": "LP143",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0424",
+    "product_id": "LP144",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0425",
+    "product_id": "LP144",
+    "rating": 4,
+    "text": "Build quality feels premium and solid. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "build",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0426",
+    "product_id": "LP144",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Build quality feels premium and solid.",
+    "aspects_pos": [
+      "screen",
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0427",
+    "product_id": "LP145",
+    "rating": 2,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0428",
+    "product_id": "LP145",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. A bit expensive for what you get.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0429",
+    "product_id": "LP145",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0430",
+    "product_id": "LP145",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. A bit expensive for what you get.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0431",
+    "product_id": "LP146",
+    "rating": 5,
+    "text": "Build quality feels premium and solid. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "build",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0432",
+    "product_id": "LP146",
+    "rating": 5,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0433",
+    "product_id": "LP146",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0434",
+    "product_id": "LP146",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0435",
+    "product_id": "LP147",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0436",
+    "product_id": "LP147",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0437",
+    "product_id": "LP147",
+    "rating": 2,
+    "text": "Very light, I carry it to campus every day without noticing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0438",
+    "product_id": "LP147",
+    "rating": 2,
+    "text": "Very light, I carry it to campus every day without noticing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0439",
+    "product_id": "LP148",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0440",
+    "product_id": "LP148",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0441",
+    "product_id": "LP148",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0442",
+    "product_id": "LP148",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0443",
+    "product_id": "LP149",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0444",
+    "product_id": "LP149",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0445",
+    "product_id": "LP150",
+    "rating": 3,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0446",
+    "product_id": "LP150",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0447",
+    "product_id": "LP150",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0448",
+    "product_id": "LP151",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0449",
+    "product_id": "LP151",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0450",
+    "product_id": "LP151",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0451",
+    "product_id": "LP151",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0452",
+    "product_id": "LP152",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0453",
+    "product_id": "LP152",
+    "rating": 3,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0454",
+    "product_id": "LP152",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0455",
+    "product_id": "LP152",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0456",
+    "product_id": "LP153",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0457",
+    "product_id": "LP153",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0458",
+    "product_id": "LP153",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0459",
+    "product_id": "LP154",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0460",
+    "product_id": "LP154",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0461",
+    "product_id": "LP155",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0462",
+    "product_id": "LP155",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0463",
+    "product_id": "LP155",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0464",
+    "product_id": "LP155",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0465",
+    "product_id": "LP156",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0466",
+    "product_id": "LP156",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "battery",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0467",
+    "product_id": "LP157",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0468",
+    "product_id": "LP157",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0469",
+    "product_id": "LP157",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0470",
+    "product_id": "LP158",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0471",
+    "product_id": "LP158",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0472",
+    "product_id": "LP158",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0473",
+    "product_id": "LP159",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0474",
+    "product_id": "LP159",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0475",
+    "product_id": "LP159",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0476",
+    "product_id": "LP160",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0477",
+    "product_id": "LP160",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0478",
+    "product_id": "LP160",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0479",
+    "product_id": "LP160",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0480",
+    "product_id": "LP161",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0481",
+    "product_id": "LP161",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0482",
+    "product_id": "LP161",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0483",
+    "product_id": "LP161",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0484",
+    "product_id": "LP162",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0485",
+    "product_id": "LP162",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0486",
+    "product_id": "LP163",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0487",
+    "product_id": "LP163",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0488",
+    "product_id": "LP163",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0489",
+    "product_id": "LP164",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0490",
+    "product_id": "LP164",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0491",
+    "product_id": "LP164",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0492",
+    "product_id": "LP165",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0493",
+    "product_id": "LP165",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0494",
+    "product_id": "LP165",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0495",
+    "product_id": "LP165",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0496",
+    "product_id": "LP166",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery easily lasts my whole work day, I rarely carry the charger. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf",
+      "battery"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0497",
+    "product_id": "LP166",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery easily lasts my whole work day, I rarely carry the charger. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf",
+      "battery"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0498",
+    "product_id": "LP166",
+    "rating": 2,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0499",
+    "product_id": "LP167",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0500",
+    "product_id": "LP167",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0501",
+    "product_id": "LP167",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0502",
+    "product_id": "LP167",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0503",
+    "product_id": "LP168",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0504",
+    "product_id": "LP168",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0505",
+    "product_id": "LP168",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0506",
+    "product_id": "LP168",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0507",
+    "product_id": "LP169",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0508",
+    "product_id": "LP169",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Build quality feels premium and solid.",
+    "aspects_pos": [
+      "screen",
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0509",
+    "product_id": "LP169",
+    "rating": 3,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0510",
+    "product_id": "LP169",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0511",
+    "product_id": "LP170",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0512",
+    "product_id": "LP170",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "battery",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0513",
+    "product_id": "LP170",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Very light, I carry it to campus every day without noticing.",
+    "aspects_pos": [
+      "screen",
+      "light"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0514",
+    "product_id": "LP170",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0515",
+    "product_id": "LP171",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0516",
+    "product_id": "LP171",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0517",
+    "product_id": "LP171",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0518",
+    "product_id": "LP172",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0519",
+    "product_id": "LP172",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0520",
+    "product_id": "LP172",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0521",
+    "product_id": "LP173",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0522",
+    "product_id": "LP173",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0523",
+    "product_id": "LP173",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0524",
+    "product_id": "LP173",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0525",
+    "product_id": "LP174",
+    "rating": 2,
+    "text": "Great value for the price, does everything I need for school. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0526",
+    "product_id": "LP174",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0527",
+    "product_id": "LP174",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0528",
+    "product_id": "LP174",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0529",
+    "product_id": "LP175",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0530",
+    "product_id": "LP175",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0531",
+    "product_id": "LP175",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0532",
+    "product_id": "LP176",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0533",
+    "product_id": "LP176",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0534",
+    "product_id": "LP177",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0535",
+    "product_id": "LP177",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0536",
+    "product_id": "LP177",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0537",
+    "product_id": "LP177",
+    "rating": 3,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0538",
+    "product_id": "LP178",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0539",
+    "product_id": "LP178",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "perf",
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0540",
+    "product_id": "LP178",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0541",
+    "product_id": "LP179",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0542",
+    "product_id": "LP179",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0543",
+    "product_id": "LP179",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0544",
+    "product_id": "LP180",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0545",
+    "product_id": "LP180",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0546",
+    "product_id": "LP180",
+    "rating": 5,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0547",
+    "product_id": "LP180",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0548",
+    "product_id": "LP181",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0549",
+    "product_id": "LP181",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0550",
+    "product_id": "LP181",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0551",
+    "product_id": "LP181",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0552",
+    "product_id": "LP182",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0553",
+    "product_id": "LP182",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0554",
+    "product_id": "LP182",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0555",
+    "product_id": "LP183",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0556",
+    "product_id": "LP183",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0557",
+    "product_id": "LP183",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0558",
+    "product_id": "LP184",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0559",
+    "product_id": "LP184",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0560",
+    "product_id": "LP184",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0561",
+    "product_id": "LP184",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. It's heavy and bulky, not great for carrying around.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "heavy"
+    ]
+  },
+  {
+    "id": "RV0562",
+    "product_id": "LP185",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0563",
+    "product_id": "LP185",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0564",
+    "product_id": "LP186",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0565",
+    "product_id": "LP186",
+    "rating": 2,
+    "text": "The display is sharp and bright, great for movies and photo editing. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0566",
+    "product_id": "LP186",
+    "rating": 2,
+    "text": "The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0567",
+    "product_id": "LP186",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. The display is sharp and bright, great for movies and photo editing. A bit expensive for what you get.",
+    "aspects_pos": [
+      "gaming",
+      "screen"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0568",
+    "product_id": "LP187",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Battery life is disappointing, I need to plug in after a few hours.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": [
+      "battery"
+    ]
+  },
+  {
+    "id": "RV0569",
+    "product_id": "LP187",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "screen",
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0570",
+    "product_id": "LP187",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0571",
+    "product_id": "LP187",
+    "rating": 4,
+    "text": "Runs modern AAA games at high settings with smooth frame rates.",
+    "aspects_pos": [
+      "gaming"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0572",
+    "product_id": "LP188",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0573",
+    "product_id": "LP188",
+    "rating": 4,
+    "text": "Very light, I carry it to campus every day without noticing. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "light",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0574",
+    "product_id": "LP188",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing. Storage fills up quickly, I had to buy an external drive.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": [
+      "storage"
+    ]
+  },
+  {
+    "id": "RV0575",
+    "product_id": "LP189",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0576",
+    "product_id": "LP189",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0577",
+    "product_id": "LP190",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0578",
+    "product_id": "LP190",
+    "rating": 3,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0579",
+    "product_id": "LP190",
+    "rating": 5,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0580",
+    "product_id": "LP190",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0581",
+    "product_id": "LP191",
+    "rating": 4,
+    "text": "The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0582",
+    "product_id": "LP191",
+    "rating": 3,
+    "text": "Build quality feels premium and solid.",
+    "aspects_pos": [
+      "build"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0583",
+    "product_id": "LP191",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. The keyboard is comfortable for long typing sessions.",
+    "aspects_pos": [
+      "screen",
+      "keyboard"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0584",
+    "product_id": "LP192",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "battery",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0585",
+    "product_id": "LP192",
+    "rating": 5,
+    "text": "Very light, I carry it to campus every day without noticing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "light",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0586",
+    "product_id": "LP193",
+    "rating": 5,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0587",
+    "product_id": "LP193",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Runs modern AAA games at high settings with smooth frame rates. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "gaming"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0588",
+    "product_id": "LP193",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0589",
+    "product_id": "LP193",
+    "rating": 3,
+    "text": "Runs modern AAA games at high settings with smooth frame rates. Performance is excellent, handles heavy multitasking without slowing down. Fans get loud under load and the chassis runs hot.",
+    "aspects_pos": [
+      "gaming",
+      "perf"
+    ],
+    "aspects_neg": [
+      "fan"
+    ]
+  },
+  {
+    "id": "RV0590",
+    "product_id": "LP194",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0591",
+    "product_id": "LP194",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0592",
+    "product_id": "LP195",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0593",
+    "product_id": "LP195",
+    "rating": 3,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0594",
+    "product_id": "LP196",
+    "rating": 3,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0595",
+    "product_id": "LP196",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0596",
+    "product_id": "LP197",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Performance is excellent, handles heavy multitasking without slowing down.",
+    "aspects_pos": [
+      "screen",
+      "perf"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0597",
+    "product_id": "LP197",
+    "rating": 4,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0598",
+    "product_id": "LP197",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0599",
+    "product_id": "LP197",
+    "rating": 5,
+    "text": "Performance is excellent, handles heavy multitasking without slowing down. Battery easily lasts my whole work day, I rarely carry the charger. A bit expensive for what you get.",
+    "aspects_pos": [
+      "perf",
+      "battery"
+    ],
+    "aspects_neg": [
+      "price"
+    ]
+  },
+  {
+    "id": "RV0600",
+    "product_id": "LP198",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "value",
+      "screen"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0601",
+    "product_id": "LP198",
+    "rating": 4,
+    "text": "Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0602",
+    "product_id": "LP199",
+    "rating": 5,
+    "text": "The display is sharp and bright, great for movies and photo editing. Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "screen",
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0603",
+    "product_id": "LP199",
+    "rating": 4,
+    "text": "Battery easily lasts my whole work day, I rarely carry the charger.",
+    "aspects_pos": [
+      "battery"
+    ],
+    "aspects_neg": []
+  },
+  {
+    "id": "RV0604",
+    "product_id": "LP200",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing. Great value for the price, does everything I need for school. 8GB RAM feels limiting with many browser tabs open.",
+    "aspects_pos": [
+      "screen",
+      "value"
+    ],
+    "aspects_neg": [
+      "ram"
+    ]
+  },
+  {
+    "id": "RV0605",
+    "product_id": "LP200",
+    "rating": 4,
+    "text": "The display is sharp and bright, great for movies and photo editing.",
+    "aspects_pos": [
+      "screen"
+    ],
+    "aspects_neg": []
+  }
+]
