@@ -9,3 +9,6 @@ data/checkpoints.db*
 data/cache.db
 .pytest_cache/
 .DS_Store
+
+# presentation material (kept local, not published)
+docs/
